@@ -8,13 +8,15 @@ Interactive Python app that demonstrates Bubble Sort step by step, built with Gr
 
 > ![App Screenshot](preview.webp)
 
-**Example — input `5, 3, 8, 1, 9, 2`:**
+**Example — input `5, 6, 1, 3, 5`:**
 ```
-Starting array: [5, 3, 8, 1, 9, 2]
-Pass 1 | Comparing index 0 (5) and index 1 (3)
-  -> Swapped! Array is now: [3, 5, 8, 1, 9, 2]
+Starting array: [5, 6, 1, 3, 5]
+Pass 1 | Comparing index 0 (5) and index 1 (6)
+  -> No swap needed
+Pass 1 | Comparing index 1 (6) and index 2 (1)
+  -> Swapped! Array is now: [5, 1, 6, 3, 5]
 ...
-Final sorted array: [1, 2, 3, 5, 8, 9]
+Final sorted array: [1, 3, 5, 5, 6]
 ```
 
 ---
